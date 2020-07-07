@@ -1,5 +1,5 @@
 {% set name = "lerc" %}
-{% set version = "2.1" %}
+{% set version = "2.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/Esri/lerc/archive/v{{ version }}.tar.gz
-  sha256: 7c48de40cd5f09319de4b39c417ff4eec4ad4b6aa5d6144f6ffa9b10d18ec94e
+  sha256: abc0c5c149144d39a8b351ff5a9a5940c0f66ba908ecf717d58f8f71065d11fe
   # CMakeLists.txt taken from master, and adapted for better compatibility
   # PR made: https://github.com/Esri/lerc/pull/128
 
